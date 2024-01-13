@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "5788-crescendo-ai"
+version = "0.1.0"
+description = "The AI detectors and algorithms for the 2024 FRC season - Team 5788"
+authors = ["Krishna Shah <kshahusa@gmail.com>, Jeevan Adhya Vinoth Babu <jeevanadhya.vinothbabu@gmail.com>, Mukesh Kalikaya <mkalikay598@gmail.com>"]
+readme = "README.md"
+packages = [{include = "crescendo_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+opencv-python = "^4.9.0.80"
+ultralytics = "^8.1.1"
+numpy = "^1.26.3"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
