@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "crescendo_ai"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
 torch = "^2.1.2"
 torchvision = "^0.16.2"
 opencv-python = "^4.9.0.80"
