@@ -32,8 +32,8 @@ class YoLoV8_Inference:
 
                 # Visualize the results on the frame
                 annotated_frame = results[0].plot()
-                self.log.info(f"Preprocess Speed: {results[0].speed[0]}; Inference Speed: {results[0].speed[1]}; Postprocess Speed: {results[0].speed[2]}")
-                self.log.info(f"Classes: {results[0].names}; Confidence: {results[0].scores}")
+                #self.log.info(f"Preprocess Speed: {results[0].speed[0]}; Inference Speed: {results[0].speed[1]}; Postprocess Speed: {results[0].speed[2]}")
+                #self.log.info(f"Classes: {results[0].names}; Confidence: {results[0].scores}")
                 # Display the annotated frame
                 cv2.imshow("YOLOv8 Inference", annotated_frame)
 
